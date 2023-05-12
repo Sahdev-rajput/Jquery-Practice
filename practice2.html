@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Practice 2</title>
+    </head>
+    <script src="jq.js"></script>
+    <body>
+        <h1>This is the practice session 2</h1>
+        <p id="para">My name is sahdev rajput . i am currently pursuing btech in computer science and engineering in nit srinagar</p>
+    <button id="n1">Hide</button>
+    <button id="n2">Show</button>
+    <button id="n3">Toggle</button>
+    <script>
+        $(document).ready(function(){
+            $(`#n1`).click(function()
+            {
+                $(`#para`).hide();
+            })
+            //$ selector
+                $('#n2').click(function()
+                {
+                    $('#para').show();
+                })
+                $('#n3').click(function()
+                {
+                    $('#para').toggle();
+                })
+
+        })
+    </script>
+    </body>
+
+</html>

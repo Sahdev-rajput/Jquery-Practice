@@ -1,0 +1,29 @@
+<html>
+    <head><title>Practice 3</title></head>
+    <script src="jq.js"></script>
+    <body>
+        <h1>this is my practice session 4</h1>
+        <img src="sahdev.jpg" id="sahdev" height="400px" width="400px"/>
+        <button id="b1">fadeIn</button>
+        <button id="b2">fadeOut</button>
+        <button id="b3">fadeToggle</button>
+        <script>
+            $(document).ready(function()
+            {
+                $('#b1').click(function()
+                {
+                    $('#sahdev').fadeIn(3000);
+                })
+                $('#b2').click(function()
+                {
+                    $('#sahdev').fadeOut(3000);
+                })
+                $('#b3').click(function()
+                {
+                    $('#sahdev').fadeToggle(3000);
+                })
+            })
+          
+        </script>
+    </body>
+</html>

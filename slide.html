@@ -1,0 +1,29 @@
+<html>
+    <head><title>Practice 3</title></head>
+    <script src="jq.js"></script>
+    <body>
+        <h1>this is my practice session 4</h1>
+        <p id="sahdev">This is my website . please subscribe to my youtube channel. hello guys please visit my page for more update . i am  a student of nit srinagar i am currently pursuing btech in computer science and engineering </p>
+        <button id="b1">Slideup</button>
+        <button id="b2">slidedown</button>
+        <button id="b3">slideToggle</button>
+        <script>
+            $(document).ready(function()
+            {
+                $('#b1').click(function()
+                {
+                    $('#sahdev').slideUp(3000);
+                })
+                $('#b2').click(function()
+                {
+                    $('#sahdev').slideDown(3000);
+                })
+                $('#b3').click(function()
+                {
+                    $('#sahdev').slideToggle(3000);
+                })
+            })
+          
+        </script>
+    </body>
+</html>
